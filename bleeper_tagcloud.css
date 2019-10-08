@@ -1,0 +1,22 @@
+.blp_tagcloud_item{
+	transition: font-size 0.5s ease;
+}
+
+.blp_tagcloud_tooltip {
+    padding: 5px;
+    background: #eee;
+    margin-left: 10px;
+    font-size: 0.5em;
+    vertical-align: middle;
+    border-radius: 5px;
+    position: relative;
+    width: 0;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.blp_tagcloud_item:hover .blp_tagcloud_tooltip{
+    display: inline-block;
+    opacity: 1;
+    width: auto;
+}

@@ -1,0 +1,21 @@
+<div id='tag_cloud_container'></div>
+
+<link rel="stylesheet" type="text/css" href="bleeper_tagcloud.css">
+
+<script src='bleeper_tagcloud.js'></script>
+<script>
+	var sample_data = {
+		'chat' : 5,
+		'support' : 3,
+		'help' : 7,
+		'documentation' : 2,
+		'pricing' : 22,
+		'pro' : 5,
+		'maps' : 12,
+		'regulations' : 5,
+		'GDPR' : 2,
+		'download' : 8
+	}
+
+	var blp_tag_cloud = new BleeperTagCloud('#tag_cloud_container', sample_data);
+</script>
